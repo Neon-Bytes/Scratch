@@ -11,3 +11,5 @@ print(np.min(array))
 print(np.max(array))
 print(np.argmax(array))
 print(np.argmin(array))
+print(np.sum(array,axis=0))   #this sums all the columns
+print(np.sum(array,axis=1))   #this sums all the rows
