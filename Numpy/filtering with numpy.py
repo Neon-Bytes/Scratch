@@ -1,5 +1,7 @@
 import numpy as np
 
+#filtering with numpy using boolean indexing and where function
+
 ages=np.array([[21,17,19,20,16,30,18,65],[39,22,15,99,18,19,20,21]])
 print(ages,"\nshape of the array ages: ",ages.shape)
 
