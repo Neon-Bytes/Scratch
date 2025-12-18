@@ -13,6 +13,6 @@ print(df)
 
 new_row=pd.DataFrame([{"name":"Abhimanyu","age":16,"job":"Greatest"},
                       {"name":"Dronacharya","age":89,"job":"Teacher"}],
-                      index=["Emp4","emp5"])
+                      index=["Emp4","Emp5"])
 df=pd.concat([df,new_row])
 print(df)
